@@ -1,4 +1,4 @@
-FROM golang:latest
+FROM golang:1.23rc2
 MAINTAINER vmarmol@google.com
 
 RUN apt-cache update && apt-get clean && apt-get install -y git dmsetup
